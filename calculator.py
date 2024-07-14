@@ -11,4 +11,9 @@ def multiply(a, b):
 
 
 def divide(a, b):
-    return a / b
+    if b == 0:
+        raise ZeroDivisionError("Can not divide by Zero")
+    else:
+        return a / b
+    
+
