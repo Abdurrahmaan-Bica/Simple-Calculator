@@ -1,3 +1,9 @@
+from pyfiglet import Figlet
+
+
+
+
+
 def sum(a, b):
     return a + b
 
@@ -15,6 +21,7 @@ def divide(a, b):
         raise ZeroDivisionError("Can not divide by Zero!")
     else:
         return a / b
+
 
 def power(base, exponent):
     return base ** exponent
